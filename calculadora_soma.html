@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+        function soma() {
+
+            var a = parseFloat(document.getElementById('num1').value);
+
+            var b = parseFloat(document.getElementById('num2').value);
+
+            document.getElementById('resultado').value= a + b;
+
+            var resultado = parseFloat(document.getElementById('resultado').value);
+
+            alert("O primeiro número é: " + a + "\nO segundo número é:"+ b +"\nA soma dos dois números é:" + resultado); 
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Calculadora de somas JavaScript</h1>
+    <table>
+            <tr>
+                <td>Primeiro número:</td>
+                <td><input type="text" id="num1"></td>
+                </tr>
+
+                <tr>
+                    <td>Segundo número:</td>
+                    <td><input type="text" name="num2" id="num2"/></td>
+                    </tr>
+
+                    <tr>
+                        <td>resultado:</td>
+                        <td><input type="text" name="resultado" id="resultado" disabled=""/></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" align="center"> 
+                                <input type="button" value="Soma" onclick='soma()'/>
+                            </td>
+                            </tr>
+        
+        </table>
+
+</body>
+</html>

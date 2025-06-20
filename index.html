@@ -5,7 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
-                width: 300px;
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .calculator {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
         }
         h1 {
             color: #2c3e50;
@@ -14,8 +30,7 @@
             font-size: 24px;
         }
         table {
-            width: 100%;
-        }
+            width: 100%;}
         td {
             padding: 8px 0;
         }
@@ -44,6 +59,8 @@
             background-color: #f9f9f9;
         }
     </style>
+                
+        
     <script type="text/javascript">
 
         function soma() {
@@ -62,6 +79,7 @@
 </head>
 <body>
 
+    <div class="calculator">
     <h1>Calculadora de somas JavaScript</h1>
     <table>
             <tr>
@@ -86,6 +104,6 @@
                             </tr>
         
         </table>
-
+    </div>
 </body>
 </html>

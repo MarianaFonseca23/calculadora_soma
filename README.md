@@ -16,6 +16,8 @@ Alerta com os valores digitados e o resultado
 
 HTML5
 
+CSS3
+
 JavaScript 
 
 🚀 Como Usar
@@ -27,5 +29,4 @@ Clique no botão "Soma".
 
 Veja o resultado no campo abaixo e em um alerta na tela.
 
-OBS: é uma calculadora de soma sem estilo, mas feita mais para práticar o JavaScript 
 
